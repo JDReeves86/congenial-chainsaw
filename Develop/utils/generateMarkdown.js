@@ -239,6 +239,9 @@ Email: [${data.email}](mailto:${data.email})
 `;
 };
 
+let validateInput = (x) => {if (x.length == 0) {return 'invalid response'}}
+
 module.exports = {
   generateMarkdown,
+  validateInput,
 }

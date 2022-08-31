@@ -33,54 +33,64 @@ function init() {
     {
       type: 'input',
       message: questions[0],
-      name: 'title'
+      name: 'title',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[1],
-      name: 'description'
+      name: 'description',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[2],
-      name: 'install'
+      name: 'install',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[3],
-      name: 'use'
+      name: 'use',
+      validate: markdown.validateInput(),
     },
     {
       type: 'list',
       message: questions[4],
       choices: ['MIT', 'Apache 2.0', 'GNU GPL 3.0', 'The Unlicense', 'N/A'],
-      name: 'license'
+      name: 'license',
     },
     {
       type: 'input',
       message: questions[5],
-      name: 'contribute'
+      name: 'contribute',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[6],
-      name: 'add'
+      name: 'add',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[7],
-      name: 'github'
+      name: 'github',
+      validate: markdown.validateInput(),
     },
     {
       type: 'input',
       message: questions[8],
-      name: 'email'
+      name: 'email',
+      validate: markdown.validateInput(),
     },
   ])
   .then((response) =>
     writeToFile('README.md', markdown.generateMarkdown(response))
   )
 }
+
+
 
 // Function call to initialize app
 init();
