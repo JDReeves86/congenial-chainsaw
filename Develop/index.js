@@ -34,25 +34,25 @@ function init() {
       type: 'input',
       message: questions[0],
       name: 'title',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[1],
       name: 'description',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[2],
       name: 'install',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[3],
       name: 'use',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'list',
@@ -64,25 +64,25 @@ function init() {
       type: 'input',
       message: questions[5],
       name: 'contribute',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[6],
       name: 'add',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[7],
       name: 'github',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
     {
       type: 'input',
       message: questions[8],
       name: 'email',
-      validate: markdown.validateInput(),
+      validate: (x) => {if (x == false) {return 'invalid response'} return true}
     },
   ])
   .then((response) =>

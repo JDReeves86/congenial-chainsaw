@@ -1,5 +1,5 @@
 
-# test ![](https://img.shields.io/badge/license-MIT-green)
+# Testing! ![](https://img.shields.io/badge/license-MIT-green)
 
 <br>
 
@@ -19,7 +19,7 @@
 
 <hr>
 
-
+This is just a test
 
 <br>
 <br>
@@ -28,7 +28,7 @@
 
 <hr>
 
-
+run installer
 
 <br>
 <br>
@@ -37,7 +37,7 @@
 
 <hr>
 
-
+by testing
 
 <br>
 <br>
@@ -81,7 +81,7 @@ SOFTWARE.
 
 <hr>
 
-
+just run some tests
 
 <br>
 <br>
@@ -90,7 +90,7 @@ SOFTWARE.
 
 <hr>
 
-
+by testing it?
 
 <br>
 <br>
@@ -105,8 +105,8 @@ You can connect with me at the e-mail address listed below for any questions abo
 
 <hr>
 
-GitHub: [](https://github.com/)
+GitHub: [jdreeves86](https://github.com/jdreeves86)
 
-Email: [](mailto:)
+Email: [jdreeves86@gmail.com](mailto:jdreeves86@gmail.com)
 
 <hr>
