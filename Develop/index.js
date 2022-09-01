@@ -17,7 +17,7 @@ const questions = [
     'Please provide instructions for contribution.',
     'How would a contributer test their addition(s)/edit(s)?',
     'What is your GitHub username?',
-    'What is your E-mail adress?',
+    'What is your E-mail address?',
 ];
 
 // TODO: Create a function to write README file
