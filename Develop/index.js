@@ -86,7 +86,7 @@ function init() {
     },
   ])
   .then((response) =>
-    writeToFile('README.md', markdown.generateMarkdown(response))
+    writeToFile('../Output/README.md', markdown.generateMarkdown(response))
   )
 }
 
